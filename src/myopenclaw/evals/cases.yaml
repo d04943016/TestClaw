@@ -1,0 +1,28 @@
+{
+  "cases": [
+    {
+      "id": "summarize-core",
+      "skill": "summarize",
+      "task": "Summarize a long project update into key bullet points.",
+      "expected_keywords": ["summary", "key", "action", "risks", "decisions"]
+    },
+    {
+      "id": "summarize-constraints",
+      "skill": "summarize",
+      "task": "Condense a design discussion and preserve hard constraints.",
+      "expected_keywords": ["constraints", "assumptions", "unresolved", "context"]
+    },
+    {
+      "id": "plan-core",
+      "skill": "plan",
+      "task": "Create an implementation plan for a feature.",
+      "expected_keywords": ["goal", "steps", "acceptance", "risks", "timeline"]
+    },
+    {
+      "id": "plan-execution",
+      "skill": "plan",
+      "task": "Turn requirements into an executable checklist.",
+      "expected_keywords": ["scope", "dependencies", "milestones", "output"]
+    }
+  ]
+}
